@@ -10,8 +10,6 @@ Luckily a lot of features that are "missing" from st can be added using patches 
 
 ## Patches used
 
-ST-Akibroszz is a patched version of ST made by me, it uses my keybinds, my colorscheme ([Dracula](https://draculatheme.com/)) and my customization options.
-
 A list of patches used can be found here:
 
 * st-anysize
