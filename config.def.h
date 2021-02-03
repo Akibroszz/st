@@ -5,11 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font    = "Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
 	"Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true", 
+    "Mononoki Nerd Font:size=10:antialias=true:autohint=true",
+    "Iosevka Nerd Font:size=10:antialias=true:autohint=true", 
 };
 
 static int borderpx = 2;
@@ -168,10 +170,10 @@ unsigned int defaultitalic = 7;
 unsigned int defaultunderline = 7;
 
 // NORD THEME
+//unsigned int defaultbg = 0;
 //unsigned int defaultfg = 257;
-//unsigned int defaultbg = 256;
-//static unsigned int defaultcs = 257;
-//static unsigned int defaultrcs = 256;
+//unsigned int defaultcs = 258;
+//unsigned int defaultrcs= 258;
 
 /*
  * Default shape of cursor
